@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME HAPPYMIE.STORE - Noddle Roll Empat Rasa Pedas Lezat</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(https://i.pinimg.com/736x/d8/8a/f0/d88af040700d51f339493638b6f62d97.jpg);
+        }
+        header {
+            background-color: rgb(255, 144, 162);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px;
+        }
+        .product-box {
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+            border: 2px solid  rgb(255, 144, 162);
+            flex-wrap: wrap;
+        }
+        .product {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .product img {
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product h3 {
+            font-size: 22px;
+            color: rgb(255, 144, 162);
+            margin: 15px 0;
+        }
+        .product p {
+            font-size: 16px;
+            color: #555;
+        }
+        .product button {
+            background-color: rgb(255, 144, 162);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .product button:hover {
+            background-color:  rgb(247, 120, 141);
+        }
+        .contact {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 18px;
+        }
+        .contact a {
+            color: #FF5733;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+        footer {
+            background-color: rgb(204, 32, 147) 51, 51);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            .product-box {
+                flex-direction: column;
+                align-items: center;
+            }
+            .product {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+
+        .keterangan{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px;
+        }
+        .foto{
+            justify-content: left;
+        }
+        .teks{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .teks2{
+            height: 2px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    
+    WELCOME HAPPYMIE.STORE - Noddle Roll Empat Rasa Pedas Lezat!
+</header>
+
+ <div class="keterangan">
+    <div class="foto" >
+        <img src="https://raw.githubusercontent.com/viaaustria15/pkk/refs/heads/main/noodle-removebg-preview.png" alt="" width="200px" height="200px" class="foto">
+    </div>
+    <div class="teks">
+        <h1> HAPPY MIE STORE </h1>
+        <p class="teks2"> Selamat datangg di toko kami!</p>
+        <P > Toko kami menyediakan noodle roll bermacam macam rasa 😍😍</P>
+    </div>
+            
+    
+ </div>
+ 
+<div class="container">
+    <!-- Product Box -->
+    <div class="product-box">
+        <!-- Product 1 - Keju -->
+        <div class="product">
+            <img src="https://raw.githubusercontent.com/viaaustria15/pkk/refs/heads/main/keju.jpg" alt="Samyang Roll Keju">
+            <h3>Noodle Roll Keju</h3>
+            <p>Lezatnya rasa keju yang meleleh dipadu dengan pedasnya Samyang Roll! Cocok untuk pecinta pedas dan keju.</p>
+            <button onclick="alert('Samyang Roll Keju berhasil ditambahkan ke keranjang!')">ORDER NOW</button>
+        </div>
+
+        <!-- Product 2 - Nori -->
+        <div class="product">
+            <img src="https://raw.githubusercontent.com/viaaustria15/pkk/refs/heads/main/nori.jpg" alt="Samyang Roll Nori">
+            <h3>Noodle Roll Nori</h3>
+            <p>Rasakan kelezatan Samyang dengan taburan nori yang gurih dan pedas, cocok untuk kamu yang suka variasi rasa.</p>
+            <button onclick="alert('Samyang Roll Nori berhasil ditambahkan ke keranjang!')">ORDER NOW</button>
+        </div>
+
+        <!-- Product 3 - Original -->
+        <div class="product">
+            <img src="https://raw.githubusercontent.com/viaaustria15/pkk/refs/heads/main/original.jpg" alt="Samyang Roll Original">
+            <h3>Noodle Roll Original</h3>
+            <p>Noodle roll original, simpel tapi pedas nya luar biasa. Pas banget buat kamu yang suka tantangan!</p>
+            <button onclick="alert('Samyang Roll Mix berhasil ditambahkan ke keranjang!')">ORDER NOW</button>
+        </div>
+
+         <!-- Product 3 - Mix -->
+         <div class="product">
+            <img src="https://raw.githubusercontent.com/viaaustria15/pkk/refs/heads/main/mix.jpg" alt="Samyang Roll Mix">
+            <h3>Noodle Roll Mix</h3>
+            <p>Campuran rasa pedas dan keju yang sempurna dengan nori. Tiga rasa dalam satu produk yang bikin nagih!</p>
+            <button onclick="alert('Samyang Roll Mix berhasil ditambahkan ke keranjang!')">ORDER NOW</button>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Info -->
+<div class="contact">
+    <h3>Hubungi Kami</h3>
+    <p>ingin bertanya lebih lanjut? bisa klik di bawah ini ya! ^^</p>
+    <div>
+        <a href="https://wa.me/6289604305192" target="_blank"><img src="https://raw.githubusercontent.com/viaaustria15/pkk/cb40c1e412c29ae029318c376c2ea0989df76f20/phone-call.svg" alt=""></a>
+        <a href="https://www.instagram.com/happymie.store/profilecard/?igsh=c3A0aHNyNXFxNzJy" target="_blank"><img src="https://raw.githubusercontent.com/viaaustria15/pkk/cb40c1e412c29ae029318c376c2ea0989df76f20/instagram.svg" alt=""></a>
+        <a href=" https://maps.apple.com/?ll=-6.394495,107.436292&q=My%20Location&t=m " target="_blank"><img src="https://raw.githubusercontent.com/viaaustria15/pkk/cb40c1e412c29ae029318c376c2ea0989df76f20/map-pin.svg" alt=""></a>
+    </div>
+    
+</div>
+
+<footer>
+    <p>&copy; 2024 Samyang Roll Store. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
